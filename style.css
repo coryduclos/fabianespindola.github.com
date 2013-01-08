@@ -1,0 +1,57 @@
+@media screen {
+
+html {
+	background-color: #8A0808;
+}
+body { 
+padding:1%;
+width:75%;
+font-size: 75%;	
+font-family: 'Monda', sans-serif;
+background-color: #0B0B3B;
+text-align: center;
+}
+h1 {	
+	font-family: 'Metal Mania', sans-serif;
+	text-align: center;
+	color: #FFBF00;
+
+	}
+p { 
+	color: #FFBF00;
+}
+ul {text-align: 'Monda', sans-serif;
+	list-style:none;
+	margin-left:0;
+	padding-left:0;
+}
+a:link {
+		color: #FFBF00;
+	}
+	a:visited {
+		color: #8A0808;
+	}
+	a:hover,
+	a:focus {
+		color: #3c8;
+	}
+	a:active {
+		color: #333;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	body {font-size: 100%;
+		margin: 0 auto;
+		padding:1% 5%;}
+}
+
+@media screen and (min-width: 768px) {
+body
+li {
+		display:inline;
+	}
+
+@media screen and (min-width: 992 px) {
+	body {font-size: 150%;}
+}
